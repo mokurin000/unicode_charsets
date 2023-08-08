@@ -1,0 +1,15 @@
+[package]
+name = "cjk_charsets"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.72"
+
+[profile.release]
+lto = true
+panic = "abort"
+strip = true
+codegen-units = 1
