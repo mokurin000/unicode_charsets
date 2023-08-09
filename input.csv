@@ -1,4 +1,5 @@
 Common,4E00-9FFF
+Compability,F900-FAFF
 Extension A,3400-4DBF
 Extension B,20000-2A6DF
 Extension C,2A700-2B73F
@@ -7,3 +8,5 @@ Extension E,2B820-2CEAF
 Extension F,2CEB0-2EBEF
 Extension G,30000-3134F
 Extension H,31350-323AF
+Extension I draft,2EBF0-2EE5D
+
