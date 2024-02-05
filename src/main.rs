@@ -1,5 +1,5 @@
-use anyhow::Result;
 use std::{
+    error::Error,
     fs::{self, create_dir_all},
     io::{BufWriter, Write},
     path::PathBuf,
@@ -39,3 +39,5 @@ fn main() -> Result<()> {
     }
     Ok(())
 }
+
+pub(crate) type Result<T> = std::result::Result<T, Box<dyn Error + Send + Sync>>;
